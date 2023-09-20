@@ -1,0 +1,181 @@
+.newsInsight:not(.owl-carousel) + .pagination {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.newsInsight:not(.owl-carousel) .item {
+	/* max-width: 400px; */
+	width: 32.3852295409%;
+	/* width: 100%; */
+	margin-right: 1.4221556886%;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 997px) {
+	.newsInsight:not(.owl-carousel) .item {
+		width: 49.5%;
+		margin-right: 1%!important;
+	}
+	
+	.newsInsight:not(.owl-carousel) .item:nth-child(2n) {
+		margin-right: 0!important;
+	}
+}
+
+@media only screen and (max-width: 747px) {
+	.newsInsight:not(.owl-carousel) .item {
+		width: 100%;
+		margin-right: 0!important;
+	}
+}
+
+.newsInsight:not(.owl-carousel) .item:nth-child(3n) {
+	margin-right: 0;
+}
+
+/* .newsInsight:not(.owl-carousel) .item:nth-child(3n) {
+	margin-right: 0;
+} */
+
+form.contact .vegafield.error {
+	border-color: #ff0000;
+}
+
+form.contact .radioGroup.error {
+	color: #ff0000;
+}
+
+/* Vincent Addon */ 
+#home_hero .carousel-item h1 span
+{
+	color: #D61145;
+}
+
+form .pretty-inputbox, form .pretty-selectbox {
+	position: relative;
+	width: 100%;
+}
+
+form .pretty-inputbox input + div, form .pretty-inputbox textarea + div {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 0;
+	position: absolute;
+	left: 31px;
+	/* opacity: 0.7; */
+	padding-left: 5px;
+}
+
+form .pretty-inputbox input + div {
+	top: 12px;
+}
+
+form .pretty-inputbox textarea + div {
+	top: 20px;
+}
+
+@media only screen and (min-width: 994px) {
+	form .pretty-inputbox textarea + div {
+		top: 12px;
+	}
+}
+
+form .pretty-selectbox select + div {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 0;
+	position: absolute;
+	left: 37px;
+	top: 12px;
+	/* opacity: 0.7; */
+	background-color: #ffffff;
+}
+
+form .captcha .pretty-inputbox input {
+	margin-bottom: 0;
+}
+
+form .required-field-symbol {
+	color: #ff0000;
+}
+
+.redCorner .pretty-inputbox input[type="text"] + div {
+	color: #ffffff;
+	font-size: 1.125rem;
+	opacity: 1;
+	left: 13px;
+	top: 18px;
+}
+
+#newsletterSignup .pretty-inputbox input + div {
+	left: 7px;
+	top: 9px;
+}
+
+.collapsing {
+    transition: none;
+}
+
+.bg_dark_grey {
+	background-color: #333333;
+	/* color: #ffffff; */
+}
+
+.bg_vega_red {
+	background-color: #D61145;
+	/* color: #ffffff; */
+}
+
+.bg_vega_triangle_image {
+	background: url(../images/diamond_bg.jpg);
+	/* color: #000000; */
+}
+
+.font_white .sectionTitle,
+.font_white {
+	color: #ffffff;
+}
+
+.font_black .sectionTitle,
+.font_black {
+	color: #000000;
+}
+
+.font_vega_red .sectionTitle,
+.font_vega_red {
+	color: #D61145;
+}
+
+.illustrationTextWrap.img--only .illustration {
+	margin: 0 auto;
+}
+
+.illustrationTextWrap.img--only .illustration img {
+	display: inline-block;
+}
+
+.illustrationTextWrap.text--only .text {
+	width: 100%;
+}
+ 
+
+.promotion .aboutWhoweare {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.promotion .globalizationOffers {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+
+
+
+
+
+
+
+

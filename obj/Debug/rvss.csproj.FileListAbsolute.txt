@@ -1,0 +1,7 @@
+D:\rvssSol\rvss\bin\rvss.dll.config
+D:\rvssSol\rvss\bin\rvss.dll
+D:\rvssSol\rvss\bin\rvss.pdb
+D:\rvssSol\rvss\obj\Debug\rvss.csproj.AssemblyReference.cache
+D:\rvssSol\rvss\obj\Debug\rvss.csproj.CoreCompileInputs.cache
+D:\rvssSol\rvss\obj\Debug\rvss.dll
+D:\rvssSol\rvss\obj\Debug\rvss.pdb

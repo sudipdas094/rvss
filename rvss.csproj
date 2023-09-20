@@ -1,0 +1,184 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEB9147A-75DE-48CD-898F-B509143E3802}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>rvss</RootNamespace>
+    <AssemblyName>rvss</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44337</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aboutUs.html" />
+    <Content Include="assets\media\images\1DA5EA05-553C-4C2E-83F8-F55E19638D9C.jpeg" />
+    <Content Include="assets\media\images\1RoomBooking-03-01.jpg" />
+    <Content Include="assets\media\images\2.jpg" />
+    <Content Include="assets\media\images\20201204150538__Beach-Front-Hote948x696.jpg" />
+    <Content Include="assets\media\images\28326C16-4BBA-475C-B949-4FA24E7A4348.jpeg" />
+    <Content Include="assets\media\images\40C16CC4-F3CD-4A45-810F-75AEE7744117.jpeg" />
+    <Content Include="assets\media\images\6AE7F6D1-5408-4589-8202-2C526C2896BA.jpeg" />
+    <Content Include="assets\media\images\6C923671-2AB9-4259-9804-6D3FA85EED06.jpeg" />
+    <Content Include="assets\media\images\6E296DDF-1E1D-4261-828C-1647759BAC58.jpeg" />
+    <Content Include="assets\media\images\6E4D937E-0FB6-4180-AD7A-61465AD5BF24.jpeg" />
+    <Content Include="assets\media\images\8463C7C2-8D29-4AF2-A483-D5CC7068728F.jpeg" />
+    <Content Include="assets\media\images\DE9F0EA9-EA8E-4090-9C9A-60703A0BD724.jpeg" />
+    <Content Include="assets\media\images\Digital-Workplace-Banner-1.jpg" />
+    <Content Include="assets\media\images\E4E8896B-A218-4973-AFD0-D862AF249400.jpg" />
+    <Content Include="assets\media\images\E4E8896B-A218-4973-AFD0-D862AF249400.PNG" />
+    <Content Include="assets\media\images\F2816B22-5A6F-4A96-8EE1-38B88BE8E3C6.jpeg" />
+    <Content Include="assets\media\images\IMG_5327-Edit948x696.jpg" />
+    <Content Include="assets\media\images\IMG_5698948x696.jpg" />
+    <Content Include="assets\media\images\itinfrastructure1.jpg" />
+    <Content Include="assets\media\images\maintenance-5.jpg" />
+    <Content Include="assets\media\images\Market.jpeg" />
+    <Content Include="assets\media\images\VEGA-284.jpg" />
+    <Content Include="assets\media\images\whatwedo_1.png" />
+    <Content Include="assets\media\images\whatwedo_2.png" />
+    <Content Include="assets\media\images\whatwedo_3.png" />
+    <Content Include="assets\media\images\whoweare_1.png" />
+    <Content Include="assets\media\images\whoweare_2.png" />
+    <Content Include="assets\media\images\whoweare_3.png" />
+    <Content Include="assets\website\css\animate.min.css" />
+    <Content Include="assets\website\css\bootstrap.min.css" />
+    <Content Include="assets\website\css\dist\css\bootstrap.css" />
+    <Content Include="assets\website\css\fontawesome-free-5.11.2-web\css\all.min.css" />
+    <Content Include="assets\website\css\responsive.css" />
+    <Content Include="assets\website\css\style.css" />
+    <Content Include="assets\website\css\style_addon.css" />
+    <Content Include="assets\website\images\arrow_next.svg" />
+    <Content Include="assets\website\images\arrow_prev.svg" />
+    <Content Include="assets\website\images\btnNewsletter_arrow.svg" />
+    <Content Include="assets\website\images\circle_arrow_next_white.svg" />
+    <Content Include="assets\website\images\circle_arrow_prev_white.svg" />
+    <Content Include="assets\website\images\diamond_bg.jpg" />
+    <Content Include="assets\website\images\footer_logo.svg" />
+    <Content Include="assets\website\images\home_dottedline_bottom.svg" />
+    <Content Include="assets\website\images\home_dottedline_bottom_m.svg" />
+    <Content Include="assets\website\images\home_dottedline_top.svg" />
+    <Content Include="assets\website\images\icon_arrow-up.svg" />
+    <Content Include="assets\website\images\icon_global.svg" />
+    <Content Include="assets\website\images\icon_search.svg" />
+    <Content Include="assets\website\images\nav-plus.svg" />
+    <Content Include="assets\website\images\rotatingGlobe.png" />
+    <Content Include="assets\website\images\rvssGroup.png" />
+    <Content Include="assets\website\images\rvssGroup_white.png" />
+    <Content Include="assets\website\images\social_fb.svg" />
+    <Content Include="assets\website\images\social_ig.svg" />
+    <Content Include="assets\website\images\social_linkedin.svg" />
+    <Content Include="assets\website\js\bootstrap.bundle.min.js" />
+    <Content Include="assets\website\js\carousel.js" />
+    <Content Include="assets\website\js\filter.js" />
+    <Content Include="assets\website\js\planetaryjs.min.js" />
+    <Content Include="assets\website\js\rotating.js" />
+    <Content Include="assets\website\js\rvssDisable.js" />
+    <Content Include="assets\website\js\script.js" />
+    <Content Include="assets\website\js\vue\app.js" />
+    <Content Include="assets\website\js\vue\axios.min.js" />
+    <Content Include="assets\website\js\vue\vue.min.js" />
+    <Content Include="assets\website\owlcarousel\owl.carousel.min.css" />
+    <Content Include="assets\website\owlcarousel\owl.carousel.min.js" />
+    <Content Include="assets\website\slick\slick.css" />
+    <Content Include="assets\website\slick\slick.min.js" />
+    <Content Include="bin\rvss.dll" />
+    <Content Include="bin\rvss.pdb" />
+    <Content Include="contact-us.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="Index.html" />
+    <Content Include="ITSolutions.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51029</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44337/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
